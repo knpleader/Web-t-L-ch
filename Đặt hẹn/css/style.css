@@ -7,7 +7,7 @@ body{
   --------------------------------------------------------------*/
   .nav-back{
       background: rgba(17, 219, 207,0.8);
-      color: #fff;
+      color: #ffffff;
   }
   .navbar-brand{
     color: #000;
@@ -25,11 +25,64 @@ body{
     outline: none!important;
   }
   
+  .container {
+    background-color: rgb(22, 197, 255);
+    border: 2px solid rgb(22, 197, 255);
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(4%,7%);
+    
+  }
+  
      
+
+  .main-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+   .main-btn:hover {
+    background: #fafafa;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    color:#fff;
+  }
+ .form-group .btn-form{
+  background: #f5f7f6;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  color:#000;
+ }
+
    
+
+
+
+
+
+
   /*--------------------------------------------------------------
   # Hero Section
-  --------------------------------------------------------------*/
   #hero {
       width: 100%;
       height: 80vh;
@@ -61,7 +114,7 @@ body{
     }
     
     #hero h2 {
-      color: #eee;
+      color: #73deff;
       margin-bottom: 40px;
       font-size: 15px;
       font-weight: 500;
@@ -70,44 +123,6 @@ body{
       text-transform: uppercase;
     }
     
-    .main-btn {
-      font-family: "Poppins", sans-serif;
-      text-transform: uppercase;
-      font-weight: 500;
-      font-size: 14px;
-      letter-spacing: 1px;
-      display: inline-block;
-      padding: 8px 28px;
-      border-radius: 50px;
-      transition: 0.5s;
-      margin: 10px;
-      border: 2px solid #fff;
-      color: #fff;
-    }
-    
-     .main-btn:hover {
-      background: #11dbcf;
-      border: 2px solid #11dbcf;
-      text-decoration: none;
-      color:#fff;
-    }
-   .form-group .btn-form{
-    background: #11dbcf;
-    border: 2px solid #11dbcf;
-    text-decoration: none;
-    color:#000;
-   }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    
     .footer {
         text-align: center;
@@ -115,10 +130,12 @@ body{
         background:rgba(17, 219, 207,0.8);
       }
       .footer .btn-back{
-        background: #fff;
-        color: #00d9ff;
+        background: #96e7ff;
+        color: #f6f6f7;
       }
       .footer .text{
         color: #000;
       }
       
+  --------------------------------------------------------------*/
+
